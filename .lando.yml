@@ -4,4 +4,5 @@ config:
   webroot: web
 services:
   appserver:
+    ssl: true
     type: php:8.2 # Bedrock requires PHP >= 8.0
