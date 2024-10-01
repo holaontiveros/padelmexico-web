@@ -1,21 +1,25 @@
 # Created by trellis-cli v1.12.1
 # Documentation: https://roots.io/trellis/docs/vault/
 
-vault_mysql_root_password: 2ODEjW5IS84dkvYv4vMFAnBJVjQF9FI5V6l2Ix5rQfheMuHOCsg1NdDa9weWU7iF
+vault_mysql_root_password: HpQPT9iUh.hRNKvAzZ8_PytkWxzxvDhtD_9FGdzXa_ELMgGQzxBah2BBk4A..VN6
 vault_users:
 - name: '{{ admin_user }}'
-  password: wMdzAfy9wiy05iDu8M2q2l5bJEX2OXpr4xJdI632AHugaAVYX1br5cR7UPoDa5lz
+  password: dqzNy-@6MtNZ8vFmmsjvG3@sdnnfJQB@Ztx2R8vh*PjTxgd-oWNp9asepruch9UR
   salt: 1hiqbbtuHj3JcDZYjLpevlWWjtrPzSPB6hF7v6qELYH22PaABUZv7yuf2pNVjQdS
 vault_wordpress_sites:
-  example.com:
-    admin_password: CaUudRnq0ExyQbJPJWKm8XHBdchAZGIbHJoEDS3xD5cYbYiUDoFFdcZCUWE1ZwAk
+  padelmexico.com.mx:
+    admin_password: 6bMNqBw!vXP7LTZ2mvWyqeY*rAANQ6g7nXchoTuvzps9HdNzVBQr_x6K@-yN!Ff-
     env:
-      db_password: oHLhX9VAaiomWkUIvgu8KU1Z8V7kexmdh3iB5TmbjqhXOogj6L6m2TmIWEhbzyVh
-      auth_key: FTMgDfTtFuQpd9UFDQxuuKSJbpdhIyXPDGdeA95lbDGbUuYlxA9ygEaO3uhfpmQb
-      secure_auth_key: s01FMoW6cxTD3fib2jgAhE0CDLzjBKgrlf5v9sER0fjTXsoAAuonIJsQucmef6pL
-      logged_in_key: foGC58vLyUS7PYdwqtdfzzb4XCVBfhDXB6zb44NMFGFFqbW6C2Crcd1fTF4X6xpA
-      nonce_key: 90UOlCSobgbInmqyi9idZrwYUDHz2aWsie9VXNDMNiVCZcB9TaF4EkzrJmaP9fvQ
-      auth_salt: tNCwOYH8SsPgoeyKs7aC57AaIwJCTEdjJdkUcQIqmiETfAg3gjKHteOS96RPLldg
-      secure_auth_salt: SmceKVD4blGeqO8tdDe61MBBaX8goJO8KcwODKKZLKfzuy0pstyq7wXWWJvXEUjc
-      logged_in_salt: FpBRSxM5jlBNeQ5NLYYVbeMgDkYFoiQ4rplSi1QbUzaxb5kxOiVM1E12qNwuCqGj
-      nonce_salt: 2QSv5gJVypTTZLg8TlicACvPaWkWeqlzaIqjQKdhdqb9HCf08uLHJgYaFQSj4D2s
+      db_password: p@Mu7_fd!zvX.UvGDHxJrw.3rFR!bg*ngWtZPGHj
+      db_name: padelmexico
+      db_host: 127.0.0.1
+      db_user: newpadelmexico
+      db_prefix: wpys_
+      auth_key: "(R[vtO]*}M6N|igC_;M7wO<U+*0{CU6[7<o-dZKCl2{gNdTZR(^.Jcq%`zl_,&GE"
+      secure_auth_key: "v-LpAFhj%Z,tL->L{%r|]nBu+jUv^fmZ8[o33lN0,->!q|ozkit(&2&52IS27z)g"
+      logged_in_key: "=$C05=Qq72{BydnOG^hpRphTZ+)=M9gu&h-2w(^grGuoEFEJ=Ch,JE8S;LTCdH!4"
+      nonce_key: "bCaK[&Hu!tl=tHC]FvrhE9`<;?k|-`_m0#)M1}5JSqilk](%mNyN(EQqyYq`u7tg"
+      auth_salt: "gv>u^]A9$N+HhLs>_u?f!(,KrgGCN%`eXK}pU2)N`2jPz:Ce1EQk@DoTKTz-Tj;|"
+      secure_auth_salt: "@[/8yUgMU:pJ49D=WachYx|[tSR73H)>EAs,>d@PU>LAj6QNJAsqf>/n1:RqvR(l"
+      logged_in_salt: "Avtou-:tl_m<DHk*G5!x{8GiaxdISKNe-t:yk[(HV*Ttfn,^H0n^B:n*bj7_Zn%)"
+      nonce_salt: "<9d8,yXq1nQ>8{f__LG]^P{sS5Zd&,<CY-jCs^d?mEm=tInId)^>qf)u&M6Y%m7_"

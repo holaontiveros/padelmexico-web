@@ -1,6 +1,7 @@
 # Application
 web/app/plugins/*
 !web/app/plugins/.gitkeep
+!web/app/plugins/novaworks/
 web/app/mu-plugins/*/
 web/app/themes/twentytwentyfour/
 web/app/upgrade

@@ -33,3 +33,6 @@
       when: project.repo is not defined or project.repo is not match("^ssh://.+@.+|.+@.+:.+")
   roles:
     - deploy
+
+# to trigger the comand in the CLI remote_user
+# ansible-playbook deploy.yml -e "site=example.com env=staging" -u web_userc

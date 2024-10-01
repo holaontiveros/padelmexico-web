@@ -1,3 +1,10 @@
 path: web/wp
 server:
   docroot: web
+
+@development:
+  ssh: javo@lima-delicaciesjewelry.com/srv/www/delicaciesjewelry.com/current
+@staging:
+  ssh: padelmexico@ssh.dean/home/padelmexico/htdocs/padelmexico.com.mx/current
+@production:
+  ssh: padelmexico@ssh.dean/home/padelmexico/htdocs/padelmexico.com.mx/current
